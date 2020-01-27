@@ -40,7 +40,7 @@ class TextAnalyzer
       end
     end
  
-    letter = [biggest.values.gsub(/\s*\(.+\)$/, ''), biggest.key.gsub(/\s*\(.+\)$/, '')]
+    biggest
   end
   
 end
