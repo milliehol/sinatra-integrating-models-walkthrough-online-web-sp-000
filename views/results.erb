@@ -7,6 +7,6 @@ Vowels: <%= "#{@analyzed_text.count_of_vowels}" %>
 Consonants: <%= "#{@analyzed_text.count_of_consonants}" %>
 
 
-Most Common Letter: <%= "#{@analyzed_text.most_used_letter[0]}" %>, used <%= "#{@analyzed_text.most_used_letter[1]}" %> times
+Most Common Letter: <%= @analyzed_text.most_used_letter.keys.first.upcase%>, used <%= @analyzed_text.most_used_letter.values.first%> times
 
 
